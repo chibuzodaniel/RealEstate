@@ -12,6 +12,15 @@
 
     
 }
+.hero h1{
+    color: #302828;
+    font-size: 60px;
+    font-weight: 600;
+}
+.hero p{
+    color: #130b0b;
+    opacity: 0.9;
+}
 form{
     background-color: #fff;
     border-radius: 5px;
@@ -46,4 +55,19 @@ form h4{
     font-weight: 500;
     display: inline-block;
     margin-right: 8px;
+}
+@media screen and (max-width: 768px) {
+    .hero .container{
+        padding-top: 30%;
+    }
+    form{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    form .box{
+        border-left: none;
+    }
+    form .input{
+        width: 100%;
+    }
 }
