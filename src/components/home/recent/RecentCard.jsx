@@ -26,7 +26,7 @@ const RecentCard = () => {
                     <button className="btn2">
                         {price} <span style={{color:"yellow"}}>/sqft</span>
                     </button>
-                    <label htmlFor="">/sqft</label>
+                    {/* <label htmlFor="">/sqft</label> */}
                    </div>
                    <span>{type}</span>
                 </div>
