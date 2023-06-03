@@ -154,3 +154,11 @@ img{
 .mb{
   margin-bottom: 80px;
 }
+@media screen and (max-width: 768px) {
+  .grid3,
+  .grid4,
+  .grid5{
+    grid-template-colums:repeat(2, 1fr)
+  }
+  
+}
